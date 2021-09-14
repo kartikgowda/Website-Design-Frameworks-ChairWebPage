@@ -229,4 +229,29 @@ footer {
   /* margin: 100px; */
 }
 
+.accordian-number,
+.accordian-question {
+  font-size: 24px;
+  color: #0b7285;
+  font-weight: 500;
+}
 
+.accordian-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #0b7285;
+}
+
+.hidden-text p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  /* font-weight: 400; */
+}
+
+.hidden-text ul {
+  color: #495057d8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 18px;
+}
