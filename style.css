@@ -221,7 +221,7 @@ footer {
   color: #495057;
 }
 
-/* !Accordion */
+/* !Accordion Component */
 
 .accordion {
   width: 700px;
@@ -238,6 +238,7 @@ footer {
   gap: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.062);
   align-items: center;
+  border-top: 5px solid #0b7285;
 }
 
 .accordion-number,
@@ -256,12 +257,11 @@ footer {
 
 .hidden-text {
   grid-column: 2;
+  display: none;
 }
 .hidden-text p {
   font-size: 18px;
   margin-bottom: 24px;
-  /* grid-column: 2 / 3; */
-  /* font-weight: 400; */
 }
 
 .hidden-text ul {
