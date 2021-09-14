@@ -220,3 +220,13 @@ footer {
   font-size: 14px;
   color: #495057;
 }
+
+/* !Accordian */
+
+.accordian {
+  width: 700px;
+  margin: 100px auto;
+  /* margin: 100px; */
+}
+
+
