@@ -250,7 +250,7 @@ footer {
   font-size: 24px;
   font-weight: 500;
   display: inline;
-  color: #495057
+  color: #495057;
 }
 
 /* Colored Question displayed only for the selected option  */
@@ -280,4 +280,8 @@ footer {
   flex-direction: column;
   gap: 10px;
   margin-left: 18px;
+}
+
+.open .hidden-text {
+  display: block;
 }
