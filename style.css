@@ -282,6 +282,7 @@ footer {
   margin-left: 18px;
 }
 
+/* Displaying the selected option only */
 .open .hidden-text {
   display: block;
 }
