@@ -231,10 +231,11 @@ footer {
 
 .accordion-question {
   padding: 32px;
-  display:grid;
+  display: grid;
   grid-template-columns: auto 8fr auto;
   gap: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.062);
+  align-items: center;
 }
 
 .accordion-number,
@@ -251,8 +252,8 @@ footer {
   stroke: #0b7285;
 }
 
-.hidden-text{
-grid-column: 2;
+.hidden-text {
+  grid-column: 2;
 }
 .hidden-text p {
   font-size: 18px;
