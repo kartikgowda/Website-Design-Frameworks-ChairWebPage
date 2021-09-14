@@ -221,22 +221,26 @@ footer {
   color: #495057;
 }
 
-/* !Accordian */
+/* !Accordion */
 
-.accordian {
+.accordion {
   width: 700px;
   margin: 100px auto;
   /* margin: 100px; */
 }
 
-.accordian-number,
-.accordian-question {
+.accordion-question {
+  width: 700px;
+}
+
+.accordion-number,
+.accordion-question-text {
   font-size: 24px;
   color: #0b7285;
   font-weight: 500;
 }
 
-.accordian-icon {
+.accordion-icon {
   height: 24px;
   width: 24px;
   stroke: #0b7285;
