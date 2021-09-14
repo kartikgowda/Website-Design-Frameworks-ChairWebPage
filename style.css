@@ -230,7 +230,11 @@ footer {
 }
 
 .accordion-question {
-  width: 700px;
+  padding: 32px;
+  display:grid;
+  grid-template-columns: auto 8fr auto;
+  /* gap: 10px; */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.062);
 }
 
 .accordion-number,
@@ -238,6 +242,7 @@ footer {
   font-size: 24px;
   color: #0b7285;
   font-weight: 500;
+  display: inline;
 }
 
 .accordion-icon {
@@ -247,8 +252,10 @@ footer {
 }
 
 .hidden-text p {
+  display:grid;
   font-size: 18px;
   margin-bottom: 24px;
+  grid-column: 2 / 3;
   /* font-weight: 400; */
 }
 
