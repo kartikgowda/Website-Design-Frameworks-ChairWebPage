@@ -127,7 +127,7 @@ img {
   color: #fff;
   padding: 24px;
   border-radius: 12px;
-  /* *Adding Shadow for Testinomial Box */
+  /* *Adding Shadow for Testimonial Box */
   box-shadow: 0px 3px 10px 0px #0c849956;
 }
 
@@ -148,7 +148,7 @@ img {
   color: #e3fafc;
 }
 
-/* * Testinomial Author Name */
+/* * Testimonial Author Name */
 .testimonial-author {
   color: #c5f6fa;
 }
