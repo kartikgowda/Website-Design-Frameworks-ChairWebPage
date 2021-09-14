@@ -226,11 +226,13 @@ footer {
 .accordion {
   width: 700px;
   margin: 100px auto;
-  /* margin: 100px; */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .accordion-question {
-  padding: 32px;
+  padding: 40px;
   display: grid;
   grid-template-columns: auto 8fr auto;
   gap: 20px;
