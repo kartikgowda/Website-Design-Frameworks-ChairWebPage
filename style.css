@@ -286,3 +286,17 @@ footer {
 .open .hidden-text {
   display: block;
 }
+
+/* Editing Carousel Page */
+
+.carousel {
+  width: 800px;
+  background-color: #1098ad;
+  margin: 30px auto;
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  width: auto;
+}
