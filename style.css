@@ -294,29 +294,35 @@ footer {
   width: 800px;
   background-color: #1098ad;
   margin: 30px auto;
-  color: #fff;
   border-radius: 20px;
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 30px;
   padding: 28px;
 }
 
 .carousel img {
-  height: 300px;
+  height: 200px;
   width: auto;
-  border-radius: 20px;
+  border-radius: 10px;
+  transform: scale(1.5);
+  box-shadow: 0px 5px 2px 2px rgba(0, 0, 0, 0.15);
+  margin-left: 74px;
 }
 
-.testimonial-text{
+.testimonial-text {
   color: #e3fafc;
-
+  font-style: italic;
+  margin-bottom: 32px;
+  font-size: 18px;
 }
 
 .testimonial-author {
   color: #c5f6fa;
+  font-size: 16px;
 }
 
 .testimonial-job {
   color: #99e9f2;
+  font-size: 14px;
 }
