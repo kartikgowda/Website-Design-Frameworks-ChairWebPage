@@ -141,12 +141,13 @@ img {
   font-size: 24px;
 }
 
-.testimonial-text {
+/*! Removing for Carousel Text */
+/* .testimonial-text {
   font-style: italic;
   margin-bottom: 20px;
   line-height: 1.7;
   color: #e3fafc;
-}
+} */
 
 /* * Testimonial Author Name */
 .testimonial-author {
@@ -287,7 +288,7 @@ footer {
   display: block;
 }
 
-/* Editing Carousel Page */
+/*? Carousel Page */
 
 .carousel {
   width: 800px;
@@ -296,10 +297,26 @@ footer {
   color: #fff;
   border-radius: 20px;
   display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 28px;
 }
 
 .carousel img {
   height: 300px;
   width: auto;
   border-radius: 20px;
+}
+
+.testimonial-text{
+  color: #e3fafc;
+
+}
+
+.testimonial-author {
+  color: #c5f6fa;
+}
+
+.testimonial-job {
+  color: #99e9f2;
 }
