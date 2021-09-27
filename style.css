@@ -294,9 +294,12 @@ footer {
   background-color: #1098ad;
   margin: 30px auto;
   color: #fff;
+  border-radius: 20px;
+  display: flex;
 }
 
 .carousel img {
   height: 300px;
   width: auto;
+  border-radius: 20px;
 }
