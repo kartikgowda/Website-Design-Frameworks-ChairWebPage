@@ -60,12 +60,12 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
 }
-
-.btn:hover,
+ /*! INACTIVATED FOR THE CAROUSEL  */
+/* .btn:hover,
 .btn:active {
   color: #fff;
   background-color: #1098ad;
-}
+} */
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -344,14 +344,21 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 50%;
+  box-shadow: 2px 1px 10px 3px #49505727;
+  cursor: pointer;
+  
 }
 
 .btn--left {
   left: 0;
+  /* top: 50%; */
+  transform: translate(-50%,-50%);
 }
 
 .btn--right {
   right: 0;
+  transform: translate(50%,-50%);
 }
 
 .btn-icon {
@@ -359,3 +366,5 @@ footer {
   width: 24px;
   stroke: #1098ad;
 }
+
+
