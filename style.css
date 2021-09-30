@@ -60,7 +60,7 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
 }
- /*! INACTIVATED FOR THE CAROUSEL  */
+/*! INACTIVATED FOR THE CAROUSEL  */
 /* .btn:hover,
 .btn:active {
   color: #fff;
@@ -300,7 +300,7 @@ footer {
   /* padding-left: 86px; */
   gap: 86px;
   /* padding: 28px; */
-  padding: 28px 28px 28px 86px;
+  padding: 32px 48px 32px 86px;
   position: relative;
 }
 
@@ -310,7 +310,7 @@ footer {
   border-radius: 10px;
   transform: scale(1.5);
   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.205);
-  margin-left: 74px;
+  /* margin-left: 48px; */
 }
 
 .testimonial-text {
@@ -347,18 +347,17 @@ footer {
   top: 50%;
   box-shadow: 2px 1px 10px 3px #49505727;
   cursor: pointer;
-  
 }
 
 .btn--left {
   left: 0;
   /* top: 50%; */
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .btn--right {
   right: 0;
-  transform: translate(50%,-50%);
+  transform: translate(50%, -50%);
 }
 
 .btn-icon {
@@ -367,4 +366,25 @@ footer {
   stroke: #1098ad;
 }
 
+/* ? Adding the buttons for page  */
+.dots {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  gap: 15px;
+  bottom:0;
+  transform: translate(-50%, 250%);
+}
 
+.dot {
+  background-color: #fff;
+  border: 2px solid #1098ad;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.dot--fill{
+  background-color: #1098ad;
+}
