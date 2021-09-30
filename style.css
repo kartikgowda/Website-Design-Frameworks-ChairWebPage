@@ -297,8 +297,10 @@ footer {
   border-radius: 20px;
   display: flex;
   align-items: center;
-  gap: 30px;
+  padding-left: 86px;
+  gap: 86px;
   padding: 28px;
+  position: relative;
 }
 
 .carousel img {
@@ -313,15 +315,38 @@ footer {
 .testimonial-text {
   color: #e3fafc;
   margin-bottom: 32px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .testimonial-author {
   color: #c5f6fa;
-  font-size: 16px;
+  font-size: 14px;
+  margin-bottom: 4px;
 }
 
 .testimonial-job {
   color: #99e9f2;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+/*? Adjusting the buttons to the page */
+
+.btn{
+  border:none;
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon{
+  height: 24px;
+  width: 24px;
+  stroke: #1098ad;
 }
