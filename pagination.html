@@ -35,18 +35,32 @@ FONT SIZE SYSTEM (px)
       body {
         font-family: 'Inter', sans-serif;
         line-height: 1;
+      }
+      .pagination{
         display: flex;
+        /* flex-grow: 1; */
+        /* flex-shrink: 1; */
         justify-content: center;
+        align-items: center;
         margin-top: 150px;
       }
-
-      .arrow{
-
+      .pointers-icon {
+        padding: 24px;
+        stroke: black;
       }
-      .pageno{
-
+      .arrow {
       }
-
+      a {
+        text-decoration: none;
+      }
+      .pageno {
+        padding: 20px;
+        border-radius: 50px;
+        font-size: 16px;
+        /* margin-left:px; */
+        color: white;
+        background-color: #66d9e8;
+      }
     </style>
     <title>Pagination</title>
   </head>
@@ -55,7 +69,7 @@ FONT SIZE SYSTEM (px)
       <button class="arrow">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="pointers-icon"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -68,7 +82,6 @@ FONT SIZE SYSTEM (px)
           />
         </svg>
       </button>
-      <a href=""></a>
       <a href="#" class="pageno">1</a>
       <a href="#" class="pageno">2</a>
       <a href="#" class="pageno">3</a>
@@ -81,7 +94,7 @@ FONT SIZE SYSTEM (px)
       <button class="arrow">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="pointers-icon"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
