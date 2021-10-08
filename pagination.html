@@ -35,9 +35,65 @@ FONT SIZE SYSTEM (px)
       body {
         font-family: 'Inter', sans-serif;
         line-height: 1;
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
       }
+
+      .arrow{
+
+      }
+      .pageno{
+
+      }
+
     </style>
-    <title>Table</title>
+    <title>Pagination</title>
   </head>
-  <body></body>
+  <body>
+    <div class="pagination">
+      <button class="arrow">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 19l-7-7m0 0l7-7m-7 7h18"
+          />
+        </svg>
+      </button>
+      <a href=""></a>
+      <a href="#" class="pageno">1</a>
+      <a href="#" class="pageno">2</a>
+      <a href="#" class="pageno">3</a>
+      <a href="#" class="pageno">4</a>
+      <a href="#" class="pageno">5</a>
+      <a href="#" class="pageno">6</a>
+      <span class="dots">...</span>
+      <a href="#" class="pageno">23</a>
+
+      <button class="arrow">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M14 5l7 7m0 0l-7 7m7-7H3"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
 </html>
