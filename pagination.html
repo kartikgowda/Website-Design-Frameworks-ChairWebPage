@@ -36,7 +36,8 @@ FONT SIZE SYSTEM (px)
         font-family: 'Inter', sans-serif;
         line-height: 1;
       }
-      .pagination{
+      .pagination {
+        width: 1000px;
         display: flex;
         /* flex-grow: 1; */
         /* flex-shrink: 1; */
@@ -45,10 +46,16 @@ FONT SIZE SYSTEM (px)
         margin-top: 150px;
       }
       .pointers-icon {
-        padding: 24px;
-        stroke: black;
+        height:30px;
+        width: 30px;
+        stroke: #66d9e8;
       }
       .arrow {
+        height: 48px;
+        width: 48px;
+        border-radius : 100px;
+        border: solid #66d9e8;
+        background-color: #fff;
       }
       a {
         text-decoration: none;
@@ -57,7 +64,7 @@ FONT SIZE SYSTEM (px)
         padding: 20px;
         border-radius: 50px;
         font-size: 16px;
-        /* margin-left:px; */
+        margin-left: 20px;
         color: white;
         background-color: #66d9e8;
       }
@@ -78,7 +85,7 @@ FONT SIZE SYSTEM (px)
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
-            d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            d="M15 19l-7-7 7-7"
           />
         </svg>
       </button>
@@ -92,19 +99,9 @@ FONT SIZE SYSTEM (px)
       <a href="#" class="pageno">23</a>
 
       <button class="arrow">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="pointers-icon"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M14 5l7 7m0 0l-7 7m7-7H3"
-          />
+        <svg xmlns="http://www.w3.org/2000/svg" class="pointers-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
         </svg>
       </button>
     </div>
