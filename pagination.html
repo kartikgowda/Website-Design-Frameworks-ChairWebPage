@@ -48,32 +48,34 @@ FONT SIZE SYSTEM (px)
       .btn {
         height: 48px;
         width: 48px;
-        border-radius : 100px;
+        border-radius : 50%;
         justify-content: center;
+        cursor: pointer;
         border: solid grey;
         border: 1px solid  #15aabf;
         background-color: #fff;
       }
 
       .btn-icon {
-        height:40px;
-        width: 26px;
+        height:24px;
+        width: 24px;
         stroke: #15aabf;
         /* stroke-width:2 ; */
       }
 
-      button:hover{
-        border-radius : 50%;
+      .btn:hover{
         background-color: #15aabf;
       }
 
-
-      .btn-icon:hover {
-        height:38px;
-        width: 24px;
+      .btn:hover .btn-icon{
+        /* border-radius : 50%; */
         stroke: #fff;
-        background-color: #15aabf;
       }
+
+
+      /* .btn-icon:hover {
+        background-color: #15aabf;
+      } */
 
      
       a {
