@@ -38,7 +38,7 @@ FONT SIZE SYSTEM (px)
       }
 
       .pagination {
-        width: 1000px;
+        /* width: 1000px; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,14 +46,7 @@ FONT SIZE SYSTEM (px)
         column-gap: 20px;
       }
     
-      .pointers-icon {
-        height:40px;
-        width: 25px;
-        stroke: #15aabf;
-        /* stroke-width:2 ; */
-      }
-
-      .arrow {
+      .btn {
         height: 48px;
         width: 48px;
         border-radius : 100px;
@@ -62,11 +55,11 @@ FONT SIZE SYSTEM (px)
         background-color: #fff;
       }
 
-      .pointers-icon:hover{
-        height:38px;
-        width: 24px;
-        stroke: #fff;
-        background-color: #15aabf;
+      .btn-icon {
+        height:40px;
+        width: 26px;
+        stroke: #15aabf;
+        /* stroke-width:2 ; */
       }
 
       button:hover{
@@ -75,6 +68,15 @@ FONT SIZE SYSTEM (px)
         background-color: #15aabf;
       }
 
+
+      .pointers-icon:hover{
+        height:38px;
+        width: 24px;
+        stroke: #fff;
+        background-color: #15aabf;
+      }
+
+     
       a {
         text-decoration: none;
       }
@@ -109,10 +111,10 @@ FONT SIZE SYSTEM (px)
   </head>
   <body>
     <div class="pagination">
-      <button class="arrow">
+      <button class="btn">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="pointers-icon"
+          class="btn-icon"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -134,8 +136,8 @@ FONT SIZE SYSTEM (px)
       <span class="dots">...</span>
       <a href="#" class="page-link">23</a>
 
-      <button class="arrow">
-        <svg xmlns="http://www.w3.org/2000/svg" class="pointers-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <button class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
         </svg>
